@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Newsme is a site to query the latest headlines based on search and category. Also features the ability to save articles.">
+
+  <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+  <link rel="icon" type="image/png" href="images/favicon.ico">
+
+  <title>Saved Articles</title>
+</head>
+
+<body>
+  <nav class="nav wrapper p-y-16 box-shadow" role="navigation">
+    <div class="nav__logo">
+      <a href="./index.html" class="text-black no-underline block">
+        <img class="float-left m-right-16" src="images/icon-news.svg" alt="">
+        <h1 class="float-left h1 font-sans font-bolder uppercase">Newsme</h1>
+        <p class="float-left italic text-black">Search for news on any topic.</p>
+      </a>
+    </div>
+    <div class="nav__links font-sans">
+      <a href="saved.html" class="text-black no-underline m-left-8 nav__links__item--active">Saved</a>
+    </div>
+  </nav>
+  <header class="js-headline-and-search-results" role="banner">
+    <h1 class="m-top-64 h1 f-s-28 js-headline-and-search-results__pre-text">Saved Articles</h1>
+  </header>
+  <section class="container m-bottom-96 m-center" data-saved aria-live="assertive" role="region">
+
+  </section>
+
+  <footer class="wrapper text-white p-y-64" role="contentinfo">
+    <div class="wrapper wrapper-1200 m-center">
+      <h2 class="h2 font-light font-sans f-s-28 uppercase m-bottom-14">About
+        <span class="font-bold block f-s-36">Newsme</span>
+      </h2>
+      <p class="wrapper wrapper-500 f-s-16">Newsme is a feed of relevant news for the day or surrounding a specific topic of interest using
+        <a class="text-white font-bold" href="https://newsapi.org/">NewsAPI</a>. You can also save an article to localstorage for future reading. It's built using ES6's Fetch API, SCSS,
+        CSS Grid, and a multitude of things via Gulp's pipeline.
+      </p>
+      <a class="block text-white font-bold m-top-32" href="https://github.com/benjaminmodayil/api-capstone">Link to Github</a>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js " integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin=" anonymous "></script>
+  <script src="js/smoothscroll-polyfill/dist/smoothscroll.min.js "></script>
+  <script src="js/shared.js "></script>
+  <script src="js/saved.js "></script>
+</body>
+
+</html>

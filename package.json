@@ -1,0 +1,31 @@
+{
+  "name": "gulp-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Benjamin Modayil",
+  "license": "ISC",
+  "devDependencies": {
+    "beepbeep": "^1.2.1",
+    "browser-sync": "^2.23.5",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^1.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-purgecss": "^0.19.0",
+    "gulp-requirejs": "^1.1.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.4",
+    "run-sequence": "^2.2.1"
+  }
+}
